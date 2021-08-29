@@ -26,6 +26,9 @@ const contract = JSON.parse(compiledCode).contracts["HelloWorld.sol"]["HelloWorl
 const abi = contract.abi;
 const bytecode = contract.evm.bytecode.object;
 
+console.log("abi: ", JSON.stringify(abi))
+
+/*
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3 = require("web3");
 
@@ -64,3 +67,5 @@ deploy();
 
 // 1 ether = 10^18 wei
 // 5 ether = 5 * 10^18 wei;
+
+*/

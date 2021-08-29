@@ -1,0 +1,3 @@
+npm i truffle-hdwallet-provider web3 solc
+
+https://ropsten.infura.io/v3/83b91f2683ae41d4a426fd1f2d022cef
